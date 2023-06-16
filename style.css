@@ -1,0 +1,303 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: #F0F0F4;
+}
+._container{
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+
+
+
+.home__iframe{
+    height: 1080px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-top: -120px;
+    
+}
+.home__absolute{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.home__container{
+    padding-top: 380px;
+    color: #fff;
+}
+.home__title{
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+.home__text{
+    font-size: 24px;
+    text-align: center;
+}
+.home__btns{
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    font-size: 24px;
+    margin-top: 40px;
+}
+.home__btn-1{
+    border-radius: 10px;
+    border: 3px solid ;
+    padding: 7px 27px;
+    box-shadow: 0px 0px 25px 6px rgba(34, 60, 80, 0.2);
+}
+.home__btn-2{
+    background: #FD7F38;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 25px 6px rgba(34, 60, 80, 0.2);
+}
+
+
+
+
+
+
+
+.window{
+    position: relative;
+    z-index: 2;
+    margin-top: -120px;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+.top-shenzhen{
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.top-shenzhen__container{
+    max-width: 800px;
+    padding-left: 200px;
+}
+.top-shenzhen__button{
+    margin-top: 30px;
+    background: #FD7F38;
+    border-radius: 10px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 25px 6px rgba(34, 60, 80, 0.2);
+    color: #fff;
+}
+.bottom-shenzhen__container{
+    max-width: 1000px;
+    padding: 0 20px;
+    padding-left: 200px;
+}
+.bottom-shenzhen__tab{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-shenzhen__items .bottom-shenzhen__item{
+    border-left: 1px #fff solid;
+}
+.bottom-shenzhen{
+    background: #9b3aff;
+    padding: 60px 0;
+    color: #fff;
+}
+.bottom-shenzhen__items{
+    display: flex;
+}
+.top-shenzhen__title{
+    font-weight: 700;
+    font-size: 36px;
+}
+.bottom-shenzhen__number{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.bottom-shenzhen__item{
+    width: 350px;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.tabs__item {
+    display: none;
+  }
+  .tabs__item.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+
+.calss-tab__nav{
+    display: flex;
+    column-gap: 20px;
+}
+.tabs__nav-btn{
+    padding: 10px 20px;
+    color: #fff;
+    background: #afafaf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.tabs__nav-btn.active{
+    background-color: #9b3aff;
+}
+.shenzhen__container{
+    position: relative;
+}
+.shenzhen__img{
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.solutions{
+    padding: 140px;
+}
+.solutions__container{
+    width: 1530px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.solutions__title{
+    font-weight: 700;
+    font-size: 36px;
+}
+.calss-tab{
+    margin-top: 30px;
+}
